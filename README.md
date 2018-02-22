@@ -3,7 +3,16 @@
 > date@2017-12-29
 
 * 使用说明：
- 直接调用Q_SvnStatus函数即可,在vimrc中增加如下配置:
- `command! Qsvn :call Q_SvnStatus()`
-* 配置完成后输入`:Qsvn` 即可显示svn提交信息
-* 按键<F1> 显示帮助信息
+ 1. 复制svn.vim到~/.vim/plugin/
+ ```
+ cp svn.vim ~/.vim/plugin/
+ ```
+ 2. 在vimrc中增加如下配置:
+ ```
+ command! Qsvn :call Q_SvnStatus()
+ ```
+ 3. 运行vim直接调用`Qsvn`函数即可,
+ ```
+ :Qsvn
+ ```
+ 4. 按键<F1> 显示帮助信息
