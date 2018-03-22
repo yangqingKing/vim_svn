@@ -16,3 +16,5 @@
  :Qsvn
  ```
  4. 按键 `<F1>` 显示帮助信息
+ ---
+![image](https://raw.githubusercontent.com/yangqingking/vim_svn/master/WX20180322-160144.png)
